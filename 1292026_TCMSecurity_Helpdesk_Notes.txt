@@ -1,1 +1,35 @@
+Course Prereqs by Digital Andrew
+-------------
+None
+Entry level course
+Helpdesk Technician/Analyst
 
+Core foundational skills for a more advanced course
+
+Need to run Linux and Windows
+
+Curriculum
+Intro
+Intro to IT
+Intro to Computing
+Desktop Computer Componenets and Repair
+Laptop Components and Repair
+Operating Systems
+Virtualization - Hypervisor
+Windows
+Linux
+Networking Fundamentals - core concepts - IP, subnets
+Remote support
+Ticketing
+Security
+Active Directory Lab
+
+Lesson Formats
+Video lectures - no emoji
+Check in quizzes emoji
+Red ticket emoji - ticket interrupts - challenges of a ticket - tickets you may encounter - go through the ticket - pause - solve the ticket or close it - then go thru his solution
+Lab with computer emoji
+
+Importance of note taking - take a bunch of notes
+Take good notes
+Cyber Mentor's Subnetting Sheet
