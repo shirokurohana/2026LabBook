@@ -16,5 +16,36 @@ Once I installed it I put in my admin password. To go in you need to do Ctrl+Alt
 
 Then I went to System -> About -> Advanced System Settings -> Computer Name -> I edited this name to ensure my server name could be something useful instead of the default one Windows puts
 
+I restarted it and checked the hostname by going to cmd prompt and typing hostname and then I got back the new name I put it in
+
+------------------------------
+
+2nd Lab
 
 
+Homelab: Initial Windows Server Setup and Installing Active Directory Domain Services (Ep. 2) with East Charmer
+
+The Objectives:
+
+1. Set up a Windows Server Correctly
+2. Install Active Directory Domain Services (AD DS) and turn the servver into a Domain Controller
+3. Verify that Active Directory is working properly.
+4. Implement best practices when setting up a Server 
+
+Initial Windows Server Setup
+
+1. Rename server - done!
+2. Configure Windows Updates - fully patched, stable, and secure - Windows Update 
+  a. I didn't have an ethernet connection so I troubleshooted using this: https://superuser.com/questions/733166/no-internet-connection-in-virtual-machine-on-selecting-nat-in-vmware-workstation
+  I clicked on Pause for the VM. Then Edit on the VMWare Toolbar -> Virtual Network Editor -> Change Settings -> Restore Settings. Then I waited until it was all done. Then I clicked on play to reboot the VM. It then had Ethernet. All fixed!
+  I installed 4 updates.
+3. Enable Remote Management - Mimics real world practice
+
+  Open Server Manager -> Click on local server -> Remote management is already enabled
+4. Install Active Directory Domain Services
+  Open Server Manager -> Manage -> Click on Add Roles and Features
+  -> Wizard will show up -> Next -> Rule-Based -> Server selected -> Next -> Add Active Directory Domain Services -> Add Features -> Next -> Next -> Next -> Install 
+  Don't close wizard even if installation has finished
+-> Promote this Server to a Domain Controller
+
+In Deployment Configuration click on add a new forest -> type in domain name -> Next -> Make sure Windows 2025 server is selected -> Enter password -> Disregard DNS -> Next -> Next -> Keep Default -> Next -> Under Review double check domain name -> Any errors? Click previous then click on next -> All prereqs passed -> Click Install -> Server will reboot automatically
