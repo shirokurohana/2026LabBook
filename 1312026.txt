@@ -1,2 +1,18 @@
 I completed the first episode in creating my homelab with Windows Server 2025 with East Charmer on YouTube.
 
+I installed VMWare going through Broadcom. I installed VMWare Workstation Pro.
+
+I then downloaded Windows Server 2025 ISO from Windows website.
+
+I made a VM through VMWare by going to Create a New Virtual Machine. Then I hit Typical, I said I will install the operating system later. Then I hit the Microsoft Windows Operating System. Then I did Windows Server 2025 for the Version. 
+
+For disk size I did 60GB. I split the virtual machine into multiple files. Then I hit finish. Under edit virtual machine settings Under CD/DVD I selected use ISO image file and clicked on the ISO I installed from the Windows website.
+
+I then hit the play button to start the VM. I went through the instructions and made sure to click Windows Server 2025 Desktop Exeperience. 
+
+I ran into a problem installing Windows Server 2025 for a couple of times. The first time was due to my VPN which I turned off. The second time was due to me going through the installation process too quickly and not clicking the start again fresh button. I then made sure to click the start from fresh button correctly. I was able to install it correctly after that. 
+
+Once I installed it I put in my admin password.
+
+Then I went to System -> About -> Advanced System Settings -> Computer Name -> I edited this name to ensure my server name could be something useful instead of the default one Windows puts
+
