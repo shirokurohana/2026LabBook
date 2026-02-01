@@ -83,3 +83,4 @@ Then I went back to the settings -> ethernet -> then I changed the ip settings a
 I restarted the computer
 
 Then I clicked on cmd prompt -> ipconfig /all to double check
+I also double checked on ethernet settings that it was set to manual
