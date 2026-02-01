@@ -53,3 +53,16 @@ In Deployment Configuration click on add a new forest -> type in domain name -> 
 It will login you into the domain
 
 It's a bit different on 2025 version -> Click Windows button on Taskbar -> All -> Windows Tools -> Active Directory Users and Computers -> GPO Management -> Remote Desktop Connection -> Make sure they're properly installed.
+
+-------------------
+
+3rd Lab 
+
+Joining a Windows 11 client to Active Directory Domain Hoemlab (Ep 3)
+
+Objectives:
+
+1. Create and configure a Windows 11 client virtual machine
+2. Join the Windows client to an Active Directory domain
+3. Apply and verify domain management settings
+4. Follow best practices for domain-joined clients
