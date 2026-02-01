@@ -66,3 +66,20 @@ Objectives:
 2. Join the Windows client to an Active Directory domain
 3. Apply and verify domain management settings
 4. Follow best practices for domain-joined clients
+
+First going to do some more work on the server
+First step is to set up static ip and dns on domain controller
+best practice: static ip address for servers don't use dhcp
+Go to cmd -> ipconfig -> we can use this IP address as static IP address
+Go to settings -> network & internet -> ethernet -? edit dhcp -> manual -> ipv4 -> ip subnet and gateway -> dns is very important to set up for client to join the network (server)
+
+ran into this problem: 
+Can’t Save IP Settings Check One or More Settings and Try Again Windows 11
+
+I couldn't change the ethernet settings so I went to Control Panel -> Network & Internet -> Network Sharing Center -> Ethernet0 -> Properties -> IPV4 -> Properties -> Use the following address and put the details
+
+Then I went back to the settings -> ethernet -> then I changed the ip settings again 
+
+I restarted the computer
+
+Then I clicked on cmd prompt -> ipconfig /all to double check
