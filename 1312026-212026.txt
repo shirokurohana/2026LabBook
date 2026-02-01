@@ -84,3 +84,35 @@ I restarted the computer
 
 Then I clicked on cmd prompt -> ipconfig /all to double check
 I also double checked on ethernet settings that it was set to manual
+
+Next step is to create OUs and Groups
+Go to Active Directory Users and Computers -> go to search button and find there 
+
+Just expand your domain -> we have default OUs
+Right click on your domain to create new OUs -> New -> Organizational Unit
+
+Create first OU here -> USA -> Under USA create 2 sub OUs -> Right click on USA -> New -> Organizational Unit -> User -> Right click on USA -> New -> Organizational Unit -> Computer
+
+Based on department 
+
+Under User OU -> Sub OU -> First department is IT -> Second department is HR -> Third department is Accounting
+
+Create Users -> Nice to have it ready before new windows client -> two different types of users -> Domain Admin -> Regular Users
+
+Domain admin first -> need this to join a new computer to the domain because only domain admins can make this change, it's best if we already have this account ready
+
+Put domain admin under IT -> right click -> New -> User -> Add details -> Double click on user -> Member of -> add -> domain admins -> apply -> ok
+
+When I was creating users I had trouble with my first one since I didn't know the default password complexity policy. So I researched: https://superuser.com/questions/365214/how-can-i-find-out-the-password-complexity-policy and then I went to Local Group Policy Editor App -> Computer Configuration -> Windows Settings -> Security Settings -> Password Policy -> Password must meet complexity requirements -> Right click to get to properties
+
+HR -> User
+
+Create a Windows 11 client
+
+1. Download Windows 11 ISO
+Go to official Windows website
+2. Create a new VM in VMWare
+File -> New VM -> Custom -> Next -> I will install the OS later -> Next -> Microsoft Windows -> Windows 11 -> Rename VM -> 
+
+
+
