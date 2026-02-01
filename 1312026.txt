@@ -49,3 +49,7 @@ Initial Windows Server Setup
 -> Promote this Server to a Domain Controller
 
 In Deployment Configuration click on add a new forest -> type in domain name -> Next -> Make sure Windows 2025 server is selected -> Enter password -> Disregard DNS -> Next -> Next -> Keep Default -> Next -> Under Review double check domain name -> Any errors? Click previous then click on next -> All prereqs passed -> Click Install -> Server will reboot automatically
+
+It will login you into the domain
+
+It's a bit different on 2025 version -> Click Windows button on Taskbar -> All -> Windows Tools -> Active Directory Users and Computers -> GPO Management -> Remote Desktop Connection -> Make sure they're properly installed.
