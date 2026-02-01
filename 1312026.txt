@@ -12,7 +12,9 @@ I then hit the play button to start the VM. I went through the instructions and 
 
 I ran into a problem installing Windows Server 2025 for a couple of times. The first time was due to my VPN which I turned off. The second time was due to me going through the installation process too quickly and not clicking the start again fresh button. I then made sure to click the start from fresh button correctly. I was able to install it correctly after that. 
 
-Once I installed it I put in my admin password.
+Once I installed it I put in my admin password. To go in you need to do Ctrl+Alt+Insert.
 
 Then I went to System -> About -> Advanced System Settings -> Computer Name -> I edited this name to ensure my server name could be something useful instead of the default one Windows puts
+
+
 
