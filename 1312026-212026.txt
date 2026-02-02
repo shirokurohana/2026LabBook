@@ -159,3 +159,5 @@ Created OUs and User groups, Created a New Windows Client and verified
 
 Next building a file server and file permissions and more homelab activities
 
+Side note: I also wanted to join my Parallels VM to a domain but it didn't work, I need to troubleshoot further: https://superuser.com/questions/733166/no-internet-connection-in-virtual-machine-on-selecting-nat-in-vmware-workstation
+
