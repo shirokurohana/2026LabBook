@@ -112,7 +112,50 @@ Create a Windows 11 client
 1. Download Windows 11 ISO
 Go to official Windows website
 2. Create a new VM in VMWare
-File -> New VM -> Custom -> Next -> I will install the OS later -> Next -> Microsoft Windows -> Windows 11 -> Rename VM -> 
+File -> New VM -> Custom -> Next -> I will install the OS later -> Next -> Microsoft Windows -> Windows 11 -> Rename VM -> Enter Password -> Next -> Next -> Next -> Next -> Next -> Next -> Next -> Disk Size (Win 10 = 20GB min needed, Win 11 = 64GB min needed) 70GB -> Next -> Next -> Review Info -> Customize Hardware > Add ISO -> Click on SATA -> Use ISO image -> Close -> Finish
+3. Power it on
+Language -> Next -> Windows 11 -> Next -> Agree -> Next -> I do not have a product key -> Windows 11 Pro or Enterprise (to join the domain) -> Windows Pro -> Accept -> Next -> Next -> Install -> Go through Installation steps -> Rename computer -> Set up for work or school -> Next -> Sign in options -> Domain join instead -> Enter name -> Password -> Security Questions -> Accept -> Next -> Wait for Windows 11 to install
 
+Login into the Windows Client -> Install VM tools -> Restart -> Check hostname 
+-> cmd prompt -> hostname
 
+Set DNS Server
+Client computers can just have DHCP unlike servers
+
+Go back to Windows Server -> cmd prompt -> ipconfig -> IP address is the same as our DNS server -> Take note of that and input that into the Windows Client 
+
+On Windows client -> Settings -> Network & internet -> Ethernet -> Scroll to DNS server assignment -> Edit -> Manual -> IPV4 -> Put Windows Server's IP address for the preferred DNS -> Save
+
+Verify it's working
+1. Ping Windows Server from Client
+Cmd prompt -> ping Windows Server's IP address and should be a success
+
+Join client to a domain
+1. Open File Explorer 
+Right click on This PC -> Properties -> Domain or workgroup -> Under Computer Name -> Change workgroup -> Click Domain -> Type in domain name -> Ok -> Type in domain admin username and password -> Welcome to domain name pop-up should appear -> Ok -> Restart to apply changes 
+
+Check if joining domain was successful by logging in with a user created before
+1. Click on other user
+Should show domain name 
+2. Login in as other user
+Should be successful
+
+Another step - very important
+Best practice
+After computer joins a domain
+Move computer to appropriate OU
+
+New computer will show under default Computers OU
+
+Move the computer to the new container we created not the default
+Right click on computer -> Move -> Select new OU
+
+When a computer is newly domain joined, move it to the appropriate OU
+Best practice
+Always add a description to the computer to make it easy to do inventory or asset management work -> Double click on computer -> 
+We usually type in the user logged into this computer and the location -> Apply -> Ok
+
+Created OUs and User groups, Created a New Windows Client and verified
+
+Next building a file server and file permissions and more homelab activities
 
