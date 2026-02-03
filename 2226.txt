@@ -1,0 +1,43 @@
+Notes on 
+Beginner Friendly Homelab IT Projects that require minimal hardware | Ep 1
+From East Charmer on YouTube
+
+1) Virtualized Windows Environment - Done!
+To learn
+- AD
+- GPO
+- User Management
+
+Password resets, adding group memberships, adding computers to a domain
+
+2) Network Simulation with Packet Tracer
+To learn
+- IP addressing
+- Switching 
+- Routing
+- VLANs
+
+3) Setting up ticketing system
+To learn
+- Handle tickets
+- Set priorities
+- Rules for automations
+  - Route tickets to specific techs via categories to streamline ticket assignments
+
+4) Windows Sysinternals Toolset Exploration
+- Hands on with troubleshooting
+- Download Windows Sysinternals
+  - Most used app is autologon
+  - Automatically logon into your computer for kiosk machines etc
+
+5) Technical Documentation Tools
+  - Create a technical documentation system for your projects
+  - Document every step on a proper platform
+
+  How to do it:
+  Objective
+  System Requirements
+  Diagram or lab setup
+  Installation and setup
+
+  
