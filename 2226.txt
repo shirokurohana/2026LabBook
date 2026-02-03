@@ -99,3 +99,23 @@ Think of a call center - no technical solution/product
 All different pieces of software/hardware
 
 In a call center you would have desktops, laptops, phones VOIP, VOIP systems, call center portal + resources, Windows as OS more likely, bluetooth headsets, router, switches, mouses, keyboards, printers, etc.
+
+IT Department Org Chart
+Visual representation of roles within an organization
+Top down and who reports to who
+
+No two orgs or IT depts are the same
+- IT size, roles, responsibilites vary on
+  - Small biz vs Fortune 500
+  - Industry (call center vs hospital)
+  - Budgets and business priorities
+- Job titles are generalizations
+  - Focus on job descriptions
+Medium to large size business
+Chief Technology Officer - CTO - high level strategic planning
+IT Director - take care of IT dept high-level
+IT Manager - infrastructure in the company, servers, network hardware
+Contributor Roles
+Applications Manager - responsible for third party software company uses, Salesforce
+Project Manager - IT projects - upgrading equipment, can be large scale
+IT Solutions Architect - high-level design for new projects
