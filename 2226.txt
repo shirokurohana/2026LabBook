@@ -40,4 +40,62 @@ To learn
   Diagram or lab setup
   Installation and setup
 
-  
+Help Desk Course by TCM Security
+
+Intro to IT
+- Definition
+- What does IT do?
+
+What is IT?
+- Actual roles in a modern business
+- IT = Information Technology
+  - Broad term 
+  - All tech work at a company
+  - For example software dev or engineering
+
+- Focus on more traditional IT definition
+  - Companies who don't deliver tech products use this more traditional IT definition
+  - Responsible administering, deploying, supporting technology that the organization uses to support business functions
+  - Excludes software development and engineering
+
+- What does role IT dept play?
+  - Manages and supports technology required for the organization to function
+- IT departments play an integral role in modern businesses
+  - Crucial to smooth operation and growth of the business
+  - May be outsourced - MSP - Managed Service Provider
+- IT department responsibilities can vary between organizations
+  - Depends on size 
+
+IT Department Responsibilities
+- Infrastructure Management
+  - Oversee installation and maintenance and upgrades of technological assets
+  - Computers, phones, even cloud 
+- Tech support
+  - Support employees to effectively use tech within the company
+  - Can include troubleshooting, training, setup and administration tasks (password resets)
+- Security
+  - Sometimes it's own department or sub dept
+  - Frequently includes both cybersecurity and physical security (security cameras and checking locks on doors)
+- Data Management
+  - Manage the organization's data and data systems
+  - Access controls and auditing for data (permissions to view certain data)
+  - Database administration
+- Identity and Access Management
+  - Login accounts
+  - Creating, administering, and auditing accounts
+  - Onboarding and offboarding employees
+- Project Management
+  - Planning and managing IT projects
+  - Includes upgrades or transitions to new solutions
+  - Includes strategic planning to keep business ready for new demands
+- Compliance and Governance
+  - Ensure organziation adheres to standards
+  - Privacy and protection
+
+IT dept is responsible for deploying, administering, and supporting tech used by a company in biz operations.
+
+Homework:
+Think of a call center - no technical solution/product
+All different pieces of software/hardware
+
+In a call center you would have desktops, laptops, phones VOIP, VOIP systems, call center portal + resources, Windows as OS more likely, bluetooth headsets, router, switches, mouses, keyboards, printers, etc.
