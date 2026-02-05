@@ -1,0 +1,23 @@
+I followed this tutorial 
+How to install Tailscale on Windows and configure Remote Desktop | Remotely access your Windows PC
+to learn Tailscale better
+
+1. Download Tailscale
+
+login into the node - tailnet is the name we give to the grouping of devices that form a tailscale network or tailnet
+
+2. Connect to account 
+Allows this windows computer to communicate with Tailscale control center
+This node has permission to be part of the tailnet
+
+100 range is called cgnat - private ip 
+only people in the tailnet can root packets to the ip address
+
+All traffic exits through a certain node - exit nodes
+
+Leave incoming connections - so you can do RDP
+
+3. Turn on Remote Desktop
+Add users 
+
+4. Windows App
