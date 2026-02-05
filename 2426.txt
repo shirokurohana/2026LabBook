@@ -1,0 +1,89 @@
+TCM Security
+IT Department Roles
+
+Chief Technical Officer CTO
+Executive position responsible for overseeing technological direction of an organization
+
+- Very high level management position
+- Focused on leadership, oversight, policy, direction
+- Usually oversees IT dept
+
+IT Director
+
+Senior management positon responsible for overseeing IT operations and ensuring they align with biz goals
+- Oversee all IT infrastructure
+- Responsible for IT strategy and planning
+- Team leadership
+- IT dept budget management and allocation
+- Project Management 
+
+IT Manager
+Management positon responsible for overseeing a team of IT professionals can vary depending on team
+- Manage people in the team
+- Responsible for some technical decision making
+- Manage day-to-day IT operations
+- Possibly responsible for high level escalations
+- Vendor and/or consultant management
+- Hire and train team members
+
+Network Engineer
+Individual contributer responsible for designing monitoring and maintaining org's computer networks
+- Design and plan computer network + upgrades
+- Monitor network for disruptions
+- Troubleshoot and support network issues
+- Installation and configuration of network applicances
+- Documentation and reporting
+
+Network Administrator
+Individual contributor responsible for maintaining and monitoring an org's network
+- Share many skills and responsibilities with a network engineer
+- Usually a more junior position
+
+System administrator 
+Individual contributor responsible for managing and monitoring an org's infrastructure (excluding network)
+- Manage, monitor and administer infrastructure such as server
+- Provide high level support 
+- System upgrades
+
+IT Technician
+Individual contributor responsible for supporting, installing and configuring infrastructure and software
+- Provides support for end users on hardware and software
+- Install, configure, update, and maintain software and devices
+- Create and manage user accounts for devices and software
+- Documentation and reporting
+
+Applications Manager
+Manager responsible for overseeing management, installation and support of software applications in an org
+- Oversee and manage third party software apps
+- Manage vendors and contracts for software
+
+Database administrator
+Individual contributor role
+- Design create and maintain database structures to support the orgs data storage and pplication needs
+- Monitor and analyze database performance
+- Implement access controls for data
+- Work with 3rd party vendors and other teams to integrate database
+
+Application Analyst
+Individual contributor role responsible for configuration and support of software applications
+- Usually will support one or a few specific applications they have experience with
+- Responsible for maintaining configuring and supporting the application
+- Provides user level support for the application
+- Train end users how to use the application
+- Writes docuemntation for admin and using the app
+
+Project Manager
+Responsible for planning and overseeing IT projects such as deployment of a new application or infrastructure
+- Project planning prior to project implementation
+- Stakeholder management
+- Resource allocation
+- Budget and timeline management
+- Communication between teams and stakeholders
+- Documentation
+
+Solutions Architect
+Responsible for high level design and oversight of IT solutions
+- Requirements analysis 
+- High level design of solutions
+- Technology selection
+- Systems integration
