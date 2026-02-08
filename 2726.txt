@@ -1,0 +1,145 @@
+TCM Security Helpdesk Course
+Help Desk Roles and Responsibilities
+
+Individual contributor responsible for providing technical support and assistance to end-users, either within an organization or to customers
+
+- Front line technical support to end users
+- Troubleshoot hardware, software, network, and other issues
+- Password and account management, such as password resets
+- Customer service
+- Escalation of support to appropriate people or channels
+- Fixing or installing hardware
+- Installing or configuring software
+- Maintain and create documentation
+
+Face of IT dept
+Level 1 - frontline - must know when to escalate and document well
+
+Help desk is first point of contact for users when technical assistance is needed
+Support is usually assigned via a ticketing system
+Support by provided or the phone, remotely or in person
+
+Troubleshooting 
+- Help desk is frequently presented with problems a user encountered that they must troubleshoot 
+- This can range from hardware, software, networking or other msic items
+- Part of the responsibility to gather info to properly troubleshoot
+- Look at prior documentation
+
+Password and account management
+- Assist users with password resets or unlocking accounts
+- Create new accounts or modify existing ones
+- Follow guidelines to ensure security
+
+Customer service
+- Provide quality customer service
+- Help desk can be the face of the IT dept or even organization
+- Frequently users will be dealing with stressful situations
+- Soft skills are integral to developping good relationships and building trust with end users
+
+Escalation of support
+- Help desk tiered L1-L3
+- Important to know the limitations of each role and when/where to escalate
+- May be internal documentation such as guides or runbooks that dictate escalation levels
+
+Fixing or installing hardware
+- Some help desk roles require troubleshooting, fixing or installing of hardware such as computers
+- Even in roles that are remote or don't require hands-on work with hardware, knowledge of hardware issues is important
+
+Install or configure software
+- Help desk installs basic approved software or tools
+- Frequently end users will not have rights or permissions to install
+- May require initial training of end user on how to use the software
+
+Maintain and create documentation
+- Help desk usually relies on internal documentation guides, runbooks, playbooks, troubleshooting documentation
+- Documenation is usually created by help desk team
+- New tasks help desk will be tasked with updating documenation
+
+Going over job postings
+IT Helpdesk Level 1
+Desktop Support Technician
+
+Section Wrap-up
+
+Quiz 
+Customer service and soft skills are not important in IT because you will mostly be working on a computer (True or False) - False
+Geraldine works for a large insurance company, in her day to day work she configures, supports and trains end users on how to use their learning management software (LMS) which of the following job titles best describes her work? - I said Technical Trainer, it's actually Application Analyst
+Josh works for a medium sized software company, in his day to day work he receives support requests via phone, email and tickets and works to resolve the issues. Which of the job titles best describes his work? Help Desk Technician
+
+Which is the most likely task a help desk technician would work on in their downtime between support requests? Updating the knowledge base documentation
+In a large scale company the CTO plays an integral role in the day to day operations of an IT department, frequently performing hands on duties such as configuration and troubleshooting (True of False) -  False
+
+Introduction - Modern day computing
+Binary -> Text, Pictures, Videos -> Issue computer instructions -> Low level set of instructions to high level set of software -> Abstraction 
+
+Binary system
+1 or 0
+on of off
+
+Decimal - 163
+Base 10 - 3 = Least significant digit
+
+0 - usually start with 0
+163
+210
+Start with most signficant position 
+1X10^2 + 6X10^1 + 3X10^0
+100 + 60 + 3
+
+---- Binary -----
+
+10100011 -> Base 2 -> 0,1 -> on, off
+76543210
+
+1X2^7 + 1X2^5 + 1X2^1 + 1X2^0 = 128 + 32 + 2 + 1 = 128 + 35 = 163
+
+Hexadecimal 
+A3 -> Base 16 numbering system
+0, 1, 2,...9, A, B, C, D, E, F
+A3
+10 = 10X16^1 + 3x16^0 = 160 + 3 = 163
+
+Bits and Bytes
+1010 0011 -> 163 
+
+Any digit is a bit
+8 bits = 1 byte
+Kilobyte - 1 thousand bytes or 8K bits
+
+1010 | 0111
+4 bits are rep by 1 hexadecimal character
+
+4 bits = nibble 
+0011
+8421  = 3
+
+1010
+8421 = A
+
+Encoding
+Hello World 
+8th letter = H
+851212
+8 = 1000
+5 = 0101
+12 = 1100
+12 = 1100
+
+Mapping binary sequences to other formats = encoding 
+
+ASCII
+
+0x0 = 0
+0x1 = 1
+
+H = 4x8 in Hex
+Hello = 4x8, 6x5, 6xC, 6xC, 6xF
+World = 5x7, 6xF, 7x2, 6xC, 6x4
+
+We usually UTF for emojis etc
+
+RGB encodes colors
+
+Monitor = collection of pixels 
+Pixels arranged in an array
+
