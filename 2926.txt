@@ -1,0 +1,54 @@
+IT Helpdesk Lab 2025 with Kevtech IT Support 
+Video 6/10
+
+Simulation video where a user is no longer part of the company
+
+ADUC -> Users -> Right-click -> Disable the user
+
+Sign out of disabled user account -> Restart
+
+The account has an arrow pointing down showing it's disabled
+
+Attempt to login into disabled account
+
+Sometimes credentials are saved so logout and do .\ to try to go into another domain (in this case local admin account). 
+
+Settings -> System -> About -> Advanced System Settings -> User Profiles -> Delete disabled account user 
+
+Sign out and sign back in as disabled user 
+
+Should see that account has been disabled.
+
+Try to play around adjust user's logon hours (make it so that it's no hours) then re-enable the user account.
+
+Should see your account has time restrictions that prevent you from signing in at this time.
+
+Logon hours change to permitted
+Go back in time to say when account expired 
+
+Should see your account's expired
+
+On Windows Server -> GPO -> Domains -> Domain Policy -> Right-click -> Edit
+
+Computer Configuration -> Policies -> Windows Settings -> Security Settings -> Account Policies -> Manage password age properties -> Right-click -> Edit -> 30 days
+
+Account lock out threshold -> 3
+Account lock out duration -> 360 minutes
+
+GPO -> right-click on Default Domain Policy -> Enforced
+
+CMD -> net user marc /domain -> shows user's details
+
+If removed from company environment -> disable account 
+
+CMD -> gpresult -> shows more about the policies
+
+GPO -> Group policy objects -> Default Domain policy -> Settings to see all policies in the drop down
+
+Default Domain Policy -> Edit
+
+Attempt to login with bad passwords to see how account will get locked out
+
+Account is locked out -> ADUC -> Double click on locked out user -> Account -> Unlock user account
+
+Ask user to login again -> Works!
