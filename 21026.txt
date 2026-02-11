@@ -1,0 +1,8 @@
+Today at my job my boss needed help printing out paperwork.
+
+What happened was there was an error with the printer not being able to add via Windows Printer section
+I tried quitting the print queue app via Task Manager which did not help
+I tried pausing and removing the job from the queue which also did not help
+What I did to resolve it: 
+https://learn.microsoft.com/en-us/answers/questions/3866481/printer-queue-is-stuck-on-a-print-and-wont-delete
+It worked perfectly.
