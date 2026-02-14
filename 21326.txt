@@ -93,7 +93,18 @@ How processors work
 How compilers work 
 Abstraction - users of software
 
+Quiz 
 7 6 5 4 3 2 1 0
 
-2^7 + 2^6 + 2^5 + 2^3 + 2^2 + 1 = 128 + 64 + 32 + 8 + 4 + 1 = 237
+2^7 + 2^6 + 2^5 + 2^3 + 2^2 + 1 = 128 + 64 + 32 + 8 + 4 + 1 = 237 Correct
 
+0 1 1 0  1 0 1 1
+8 4 2 1  8 4 2 1 
+
+6B Correct 
+
+True AND false = False
+
+True if either or both inputs were true = OR
+
+1s and 0s are called Machine Language
