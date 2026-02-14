@@ -108,3 +108,44 @@ True AND false = False
 True if either or both inputs were true = OR
 
 1s and 0s are called Machine Language
+------------------------------------------------
+Core components 
+Purpose of the component - core technical 
+
+Great hands-on experience 
+Lenovo M83 Desktops
+Very common in business
+
+IT will lease their hardware
+1) IT costs are very predictable 
+2) It will cover for any damages - spill coffee or get stolen
+3) Prevents downtime
+
+ESD Precautions and Opening Computers
+- electrostatic discharge - not dangerous or damaging to humans - to circuit boards it can be damanging 
+Really important to keep computer safe 
+
+First piece of equipment - ESD mat
+Does help reduce ESD 
+
+Second piece of equipment - Wrist band with clip to something metal - keeps us with constant connection to ground - helps prevent us from gaining charge
+
+Banana connector - plus into a clip 
+Ground pin - doesn't take electricity 
+To dissapate charge
+
+Electrostatic resistant bag 
+
+Techniques
+Hold by edges of PCB
+Ground yourself before working inside the computer 
+Touch something large and metal
+Both hands to the computer metal case
+Doorknob too 
+
+Power off and unplugged
+
+Open up the computer case
+Very little tools just a philipp screwdriver
+
+Central Processing Unit CPU next lesson...
