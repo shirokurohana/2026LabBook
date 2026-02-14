@@ -93,11 +93,7 @@ How processors work
 How compilers work 
 Abstraction - users of software
 
-1 1 0 0 1 0 1 0 
-8 7 6 5 4 3 2 1
+7 6 5 4 3 2 1 0
 
-2^8 + 2^7 + 2^4 + 2^2 = 256 + 128 + 16 + 4 = 256
-256
-148
-404
+2^7 + 2^6 + 2^5 + 2^3 + 2^2 + 1 = 128 + 64 + 32 + 8 + 4 + 1 = 237
 
