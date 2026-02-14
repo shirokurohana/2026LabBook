@@ -1,0 +1,101 @@
+TCM Security - Helpdesk Course
+
+How a Computer Computes Part 1
+
+1 or 0
+on or off
+
+Trillions of tiny switches - transistors
+Store data and perform computations
+
+Core is the processor - integral parts to performing computation
+Processor or CPU = brain of the computer
+
+Intel 8008 - one of intel's very first processors in 1972
+3,500 Transistors in this processor
+IO - input and output - these pins act as the IO - take in instructions and perform outputs on the instructions
+
+
+Modern CPU
+Intel i9
+Billions of transistors
+
+Some CPUs have trillions of transistors in just 50 years
+
+Simplified version of Intel 8808
+
+3,500 transistors inside - electrical switches
+Hold them on or off 
+Store binary data
+
+Internal registers - hold some data for computations and perform computations
+
+Combined together to provide logic gates
+Very small computations
+Perform more complex computations
+
+Logic gates => boolean logic
+
+AND and OR gate
+
+Truth table - AND Gate
+1 = true
+0 = false
+
+OR gate
+
+Gates can do addition, comparision, subtraction
+
+How a Computer Computes Part 2
+Pins allow for IO
+
+Electrical level - high or low level voltage
+5 volts = high here
+0 volts = low here
+on 
+off
+
+Instruction set 
+Send to processor 
+Binary to perform a certain instruction
+
+Store instructions in external memory
+
+We translate 1s and 0s -> electrical voltage -> spit an output
+
+Compilers and Abstraction
+
+Paint.exe
+Start of most files is the magic number - .exe - to indicate file type
+Data 
+Instructions
+= Machine language
+
+Assembly language
+MOV
+
+Most software is written in higher-level laguages
+
+Use a compiler converts into .exe etc
+
+Abstraction
+Just need to know how to use the software
+
+Processor manufacturer -> transsistors or
+IT Professionals should understand layers of abstraction
+Different layers
+
+Section Wrap-up
+Theoretical - technical components
+Binary
+Encoding 
+How processors work
+How compilers work 
+Abstraction - users of software
+
+1 1 0 0 1 0 1 0 
+8 7 6 5 4 3 2 1
+
+2^8 = 256 
+
+
