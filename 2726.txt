@@ -88,10 +88,15 @@ Start with most signficant position
 
 ---- Binary -----
 
+0 1 1 0 1 0 1 1
+7 6 5 4 3 2 1 0
+
 10100011 -> Base 2 -> 0,1 -> on, off
 76543210
 
 1X2^7 + 1X2^5 + 1X2^1 + 1X2^0 = 128 + 32 + 2 + 1 = 128 + 35 = 163
+
+
 
 Hexadecimal 
 A3 -> Base 16 numbering system
