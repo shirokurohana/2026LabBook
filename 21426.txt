@@ -1,0 +1,88 @@
+TCM Security 
+
+CPU - Central Processing Unit - Brains
+
+First ground yourself to the chassis
+Screen PCB -> Motherboard
+
+CPU seated under a cooling mechanism - normally it's a fan
+
+CPU generate a lot of heat
+
+Thermal paste spread out in a fractal pattern - very thermally conductive thermal conection between the top case of the CPU and the heat sink
+
+Intel or AMD
+
+Cores + frequency = how powerful / fast it is
+
+LGA -> Land Grid Array noramlly for Intel CPUs
+Pins are on the socket 
+Processor doesn't not have pins, it has receivers for the pins
+
+PGA -> Pin Grid Array normally for AMD CPUs
+Opposite of LGA
+
+Ball Grid Array -> Mobile or Laptop 
+Balls of solder difficult to replace
+
+Verify socket type
+
+Triangle helps orient the processor to be put in the right way
+Gold triangle will match with that socket
+
+Reapply thermal paste once inside the socket
+Generally less is better
+X shape or pea-sized droplet
+Use applicator to spread it out 
+
+Heat sink with fins
+Square sake size as CPU
+Clean away the thermal paste
+
+RAM - Random Access Memory
+Store variables 
+Differs from the drive since it's temporary
+
+Installing RAM should all be identical even the manufacturer
+Motherboard only compatible for one specific type of brand
+Could lead to random crashes if all different
+
+DDR - DDR SDRAM - Double date rate
+
+Different levels 
+DDR 1 -> DDR 5
+
+Get correct type of DDR
+Operating voltage reduced
+Increased speed/bandwith
+
+DIMM - Dual Inline Memory Module
+Follow proper layout when installing the RAM otherwise you will get half the speed
+
+Drives
+Permanent storage - drives
+HDD and SSD
+
+Drive base holds the drives in place
+Purpose built for the components
+Button to push down drive bay swing to open
+
+3 different drives in the video
+1) Disk drive - SATA connector - transfers the data 
+2) HDD - bigger - some drawbacks slower for reading and writing - mechanical parts can fail or die - 3TB in this video
+3) SSD - smaller - it's all flash memory, no moving parts - best to put the operating system here
+
+Power Supply Unit PSU
+Integral and core component
+Plugged into the wall
+Most of the time you can swap out the PSU
+
+The plug is called power plug - female end into the receptable 
+AC power to the power supply 
+12volt CPU
+Represents they're in DC 
+Total power output 240 watts maximum 
+80 plus bronze - how well it can take AC power 
+higher this number it means it's more efficient 
+
+Make sure power switch is on
