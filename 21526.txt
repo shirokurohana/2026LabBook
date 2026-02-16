@@ -114,7 +114,4 @@ f10 save and exit
 
 Outro 
 
-Ticket interrupt for next time...
-
-
-
+Ticket interrupt - computer won't power on, next time 
