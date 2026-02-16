@@ -1,0 +1,38 @@
+TCM Security Course 
+Graphical Processing Unit - GPU
+Core component for gaming - generating the images that will be show on the monitor
+
+Modern CPUs have GPUs built into it
+
+High FPS - frame rates - need a good GPU
+
+DVI port 
+
+Plug into the ports of the GPU if you want to get the experience 
+
+GPU will go into the PCI slots
+
+PCI express slots - two form factors - PCI 16x form factor - 1x form factor too
+
+Motherboard - provides interconnection between components
+
+ATX 12 volts. PSU cpu, some components have a clip that you need to depress
+
+Audio jacks, MIC and audio out,
+power button cable, SATA connectors
+USB inputs
+standoffs in the case
+
+Battery -> CMOS battery allows computer to keep time and keep settings in the BIOS, required for computer to operate
+
+Sometimes you need to reset to factory settings
+Cler CMOS
+
+Chip set to help MOBO communicate with other comonents
+Difference is in the peripherals (such as overlocking the CPU)
+
+Standard ITX - Micro ITX - smaller version
+put backplate first before you put the MOBO back in
+Make sure you put the cables in the right orientation
+
+
