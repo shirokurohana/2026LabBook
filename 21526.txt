@@ -72,3 +72,49 @@ line in - recording an instrument - blue
 audio out - green - like headphones
 
 
+POSTing and the BIOS
+How computers boot up
+Basic input output system - BIOS
+
+POST - Power on self test
+Set of tests that BIOS runs to make sure that everything is okay 
+
+BIOS will check RAM, PSU, peripherals like if keyboard is required
+
+POST might not start - display error, or series of beeps look in the user manual to diagnose it 
+
+Any changes to hardware etc check the POST
+Unclip the RAM to show not close contacts for demonstration purposes
+Different beeps going off 
+
+Entering the BIOS
+different for each manufacturer
+delete or f12
+
+Enter setup Lenovo BIOS setup utility
+Firmware or software that helps configure the hardware
+
+System summary
+Navigation instructions
+Most of the time you can only use the keyboard
+if you're changing hardware see BIOS
+
+Configure SATA to AHCI 
+IDE is for legacy reasons
+
+CPU setup
+We can change and enable virtualization tech
+Need to turn on for VMs
+
+Security settings 
+Startup 
+
+SATA 3 - other drive
+f10 save and exit
+
+Outro 
+
+Ticket interrupt for next time...
+
+
+
