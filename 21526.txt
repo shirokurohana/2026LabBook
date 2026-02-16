@@ -35,4 +35,40 @@ Standard ITX - Micro ITX - smaller version
 put backplate first before you put the MOBO back in
 Make sure you put the cables in the right orientation
 
+Ports, cables and peripherals
+Power connector
+
+Green connector - DB9 connector - talk serial with other devices - talk with PLC, router, switch to configure it
+Blue connector - VGA to display video - analog - oldest protocol - legacy situations like an old monitor
+DVI connector - replacement of VGA - only video no audio
+Dual link DVI is backward's compatible - better refresh rate
+HDMI - send video and audio in a digital format
+Display port - most modern for video output both audio and video 
+
+Use Display port highest frequency and frame rates
+
+USB c connector
+display port logo
+USB C - Data transfer, video, power
+
+
+Video adapters great for a pinch if you need to convert to different video formats
+Avoid using adapters if possible
+
+USB A ports
+SS means super speed blue connectors
+Mouse can be plugged in
+USB A to USB B 
+Plug in printers
+USB mini 
+Micro USB - phones or tablets
+
+PS2 connector - old school keyboards
+
+ethernet - RJ45
+3.5MM jacks
+microphone in - pink
+line in - recording an instrument - blue
+audio out - green - like headphones
+
 
