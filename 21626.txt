@@ -1,0 +1,58 @@
+TCM Security Practical Help Desk
+
+Ticket - Computer won't power on
+
+Jot down process you would go through if you got this ticket and had to go over to the person's desk and try to troubleshoot the problem
+
+Steps
+Why you would take those steps
+
+My steps
+1) First check is the cable connected to the outlet and to the computer?
+If not, plug it in, and otherwise try another cable
+To ensure that the hardware layer is connected 
+2) Check the PSU and ensure everything is working 
+To ensure the hardware layer doesn't have something faulty
+Make sure everything is screwed in properly 
+Otherwise reinstall a new PSU
+3) In the meantime provided another computer for the employee to work in while I attempt to troubleshoot
+
+General strategies for troubleshooting hardware issues
+1) Have a good understanding inside a system and their components
+Monitor component - cable to monitor - cable to computer - graphics on the MOBO
+Think of all the different problem areas
+2) Break down components to lowest testable parts and isolating the part
+3) Order in which to do testing
+Try the easiest thing first
+
+Check power cable, check power strip, check PSU power button is ON 
+Verify outlet or power bar are working properly plug in a known device to test 
+Open computer case to verify connections from power button to MOBO, try unplugging and replugging them. Consult manual to verify the power ON pins and try to manually jumper them
+Sometimes the power button breaks after pushing too many times
+Check the CMOS battery and reset CMOS either by unplugging battery or with the jumpers
+Check PSU connections to MOBO are okay, inspect PSU for any visible signs of damage (scorched or black)
+Test PSU or replace with known functioning PSU
+Test MOBO then replace with known good MOBO
+
+
+Section intro - laptop components
+Much smaller components 
+Dell Latitude 5480 - common business laptop
+
+Opening laptops
+Tools - IFIXIT
+
+Screwdriver, TR, TR-10 size - different bits
+Metal pryer 
+Pointer - spudger tool
+Suction cup 
+ED tweezers
+Shims
+
+Bottom panel can come off with screws
+Pressure fit, screws hold it in and pressure to keep it in
+Tiny little hole 
+To put it back just clip it back in and put screws back
+
+Laptop battery - replacement
+Ground yourself
