@@ -1,0 +1,96 @@
+TCM Security - Practical Helpdesk Course
+
+Laptop RAM
+Dual in memory 
+SODIMM
+Small outline 
+Dual inline 
+Memory module
+
+Push down on the clips out and it lifts out 
+Hold the edges
+16GB card 
+More modern kind 
+Make sure the orientation is correct
+DDR4
+
+Laptop Drives
+Install, replace, or remove a drive 
+First ground yourself
+M.2 form factor of the drive
+M.2 connector 
+1 screw at back and half moon cutout 
+Screw just holds it in place
+Standard phillips screw
+
+SSD drive 512 GB - M.2 Format
+most common format
+space saving since they're so small
+
+NVME - much higher communication/bandwith to the drive
+
+Don't over tighten it 
+
+Laptop CMOS battery
+Top right hand section
+CMOS battery same size, voltage as desktop
+In shrink wrap black 
+Reset the CMOS or replace
+Disconnect clip 
+
+Additional laptop components
+Heatsink has thermal paste underneath
+Brings the hot air to the fan and brings it out through the back
+
+Might need to clean the fan
+
+Wireless card 
+
+Back plane - blue pcb = MOBO
+
+USB, HDMI, RJ45, USB, DisplayPort, SD reader, VGA, USB, Headphones, you can put a lock into the computer (antitheft)
+
+How to get power to it
+PSU exterior as part of the cable 
+
+The manual will help especially the business computers
+
+Visit google and the manual
+
+Some parts are hard for us to repair and replace, dependent on company
+
+
+Quiz
+1) What type of screw is shown?
+  Torx
+2) What connector is more popular on laptops for its ability to perform power, video and data?
+  USB-C
+3) Which component would most likely be in scope for a consumer or basic help desk to replace in a laptop?
+  RAM
+4) What is the format of the drive shown in the photo?
+  M.2
+5) What is the name of the tool showin in this picture?
+  Spudger is correct here
+
+Operating Systems
+Windows, MacOS, Linux
+
+OS in general, key points and characteristics
+
+Kernel, userland, drivers, abstraction, abitration
+file types, extensions
+
+Operating Systems 101
+Early days of modern computing 70 to 80 years ago
+Giant computers take up a room
+Bare metal - loading application directly onto the hardware
+A lot of work to rewrite code to work on another piece of hardware
+Need to have in depth and intricate knowledge of the other hardware
+Queue applications 
+Manually unload one application and load another one in
+Computing resources weren't used well 
+These problems necessitated OS
+
+1) Applications, Utilities, Libraries
+2) Operating Systems -> Windows, MacOS, Linux, Android 
+3) Hardware -> CPU, RAM, Disk, Webcam, IO, Mouse
