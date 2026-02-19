@@ -1,0 +1,57 @@
+TCM Security - Practical Helpdesk course
+
+Virtualization
+Intro
+-----
+Critical piece of tech heavily relied on by modern IT depts
+Move resources off-premises and into cloud virtualization platforms
+1) How virtualization works
+2) What a hypervisor is
+3) Core benefits of virtualization
+4) Different types of hypervisors
+5) What is container versus a hypervisor
+
+Hypervisor virtual box
+
+Virtual Machines and Hypervisors
+--------------------------------
+Software based version which would require it's own hardware
+Network equipment or even storage mediums
+
+Virtualizing an entire computer
+- Virtual machines - VM
+Software based virtualization of an entire computer such as OS and apps
+Windows can be base OS
+VMWare -> virtualization software
+Run multiple virtual computers as long as you have the resources for it
+
+Need underlying hardware and computer to host or run the VMs
+Host -> CPU, RAM, Storage (internal disk), networking capabilities
+
+Hypervisor's responsibility partition up and allocate the resources of host OS to the VMs
+
+Two types of hypervisors
+1) Type 2 hypervisor 
+Installed on top of another base OS
+-> this is VMWare -> Hypervisor that acts like an application
+Personal use -> End user
+Not managed, end user can just spin up the VM
+-> Less efficient 
+Layer of abstraction 
+
+VMWare workstation - Type 2 hypervisor
+Virtualbox - Oracle - Type 2 hypervisor
+
+2) Type 1 hypervisor
+Installed directly onto the bare metal
+No underlying operating system
+Like the own OS
+-> Bare metal hypervisor 
+Much more efficient
+Enterprise 
+Cluster of vms - just to host the vms
+Interacting with a vm - not remotely controlling the whole OS
+can just be mail server, web server that has been virtualized
+VMWare ESXi 
+Microsoft's Hyper-V
+Proxmox 
