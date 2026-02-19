@@ -91,6 +91,101 @@ Manually unload one application and load another one in
 Computing resources weren't used well 
 These problems necessitated OS
 
-1) Applications, Utilities, Libraries
-2) Operating Systems -> Windows, MacOS, Linux, Android 
+1) Applications, Utilities, Libraries -> Web browser, video game, Word application
+2) Operating Systems -> Windows, MacOS, Linux, Android, iOS
 3) Hardware -> CPU, RAM, Disk, Webcam, IO, Mouse
+
+Chrome browser - it doesn't have to worry about CPU, RAM, keyboard, it is installed onto OS, OS interacts with hardware
+
+AUL interacts with OS and OS interacts with HD
+
+Abstraction 
+All the designer of application needs to know is for it to work on Windows or whatever OS
+
+OS split into 2 categories
+Userland -> applications we install and use
+Kernel -> Responsible for interacting with hardware
+
+API calls bridge the gap between userland and kernel
+Application Programming Interface - set agreed upon list of functions to call to the OS 
+
+Arbitration
+Spin up browser, browse Reddit, also have Word open, two separate pieces of apps working
+lots of processes working in background
+No need to worry to share CPU resources
+OS takes care of it 
+
+OS allow us to load apps on top of them and make them more portable and prevent apps from communicating directly with hardware
+
+File systems
+Really integral functionality - interact with and layout persistent storage
+Easily recall them 
+Could be hard disk, or even a punch card to indicate a 0 or 1
+
+Very low level
+Access or write or read need to know location of zero and ones
+
+Address locations to access the data stored
+A0 address to An address
+
+We want to get up GBs of data
+If we wanted to go access this 
+Need to keep track of starting address and where it is physically stored
+Starting address
+Size 
+End address
+
+You have to remember the addresses of the file 
+No way to organize or name them
+
+Abstract the layout of the physical drive to understand the file addresses
+File system will take care of the behind the scene stuff
+
+A tool to navigate files -> File explorer
+Persistent storage
+Look at the properties
+NFTS 
+Different folders for this disk
+Path navigation of where you're at in the file system
+C:\
+
+Root of the C drive 
+Tree diagram
+Path to the file
+Folders are just an organization tool
+Human readable ways
+
+Have security over who can access to various files
+Set access so it's a form of arbitration 
+File systems keep metadata about files 
+
+File types
+File type or file extensions
+Test.txt file
+Store, access, read, write to files
+
+A file is just a blob of 1s and 0s 
+Recall data without having to know the address of that blob
+File types characterize that blob of data
+What it expects to see in them
+3 letter word or acronym
+Agreed upon format 
+PDF - certain amount of data text or pictures 
+Denote file type
+File extension
+Set program will default - create files without file extension not required by OS
+
+How first set of bytes - magic bits - start of file - contents and what file type is
+
+101 on OS core functions 
+Abstraction userland and hardware with kernel
+Arbitration - divide up resources to different applications 
+Importance of file systems to abstract the physical layer of disks
+
+Quiz
+1) In an OS kernel abstracts interactions with hardware from apps installed which run in userland
+2) Arbitration is allocating and separating resources such as memory to multiple apps or users
+3) OS not just on laptops
+4) All of the above - using names to read or write to files instead of addresses, organizing files with directories of folders, storing metadata on files and folders
+5) A file extension is required for all files on an OS - False
+
