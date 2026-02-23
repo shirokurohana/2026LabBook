@@ -50,3 +50,62 @@ Move virtualization off premises just putting it in the cloud - so no need to ma
 
 Failover happen behind the scenes from the cloud providers
 
+Containers
+----------
+Instructor is running Windows as Base OS and in his type 2 hypervisor he ran the Ubuntu VM
+Ubuntu VM - guest operating system
+
+Host operating system - Windows
+
+VM acts like a normal computer installed on hardware
+
+Virtualize or run a web server
+They interact this through their browser
+
+Spin up multiple versions of that server it'll be resource intensive
+so instead use containers
+
+Containers vs VMs
+Virtualize a single app -- The entire computer
+App code or dependencies -- 
+
+Nested virtualization - spin up a container in Ubuntu VM
+
+He created an image to build a container from
+Blueprints to launch up the container
+All the dependencies and compilation are within the image
+Docker is the most popular container software
+Hypervisors can also create containers
+
+Containers have gained a lot of popularity - for cloud services and microservices
+Very flexible 
+
+Installing VirtualBox
+---------------------
+Created by Oracle
+UAC - user account control prompt
+
+Section Wrap-up
+---------------
+Key concepts of virtualization and its advantages
+Containers vs virtual machines
+
+Quiz
+----
+Your friend has a Windows laptop and wants to run a Linux VM on it without needing to remove the base Windows OS, which software would be their best option?
+VMWare Workstation
+
+Type 1 hypervisors are also common referred to as:
+Bare Metal
+
+Your company is considering virtualizing a webapp, they are most concerned about scalability and being able to quickly provision and deprovision instances, what would you suggest?
+Container
+
+Which of the following are advantages of virtualization?
+Disaster recovery via snapshots
+Host multiple different versions of operating systems on one piece of hardware
+Cost reductions by only using compute resource when required
+
+The operating system running inside of a VM is referred to as the:
+Guest OS
+
