@@ -146,4 +146,12 @@ Use Defaults to install Windows 11
 
 It reboots during installation process
 
-
+Installing Windows 11 on a VM Part 3
+------------------------------------
+Install guest tools
+Adjust the resolution
+Reboot now 
+View autoresize guest display
+Full screen mode
+Ctrl+F to get out of full screen mode
+Drag and drop
