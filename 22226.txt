@@ -109,3 +109,24 @@ Cost reductions by only using compute resource when required
 The operating system running inside of a VM is referred to as the:
 Guest OS
 
+Windows
+Section Intro
+-------------
+
+Most common and popular to use in business environments
+End users use this on a day-to-day basis
+
+Local Windows installation administer a single windows computer
+Windows Basics
+Local user accounts and domain accounts
+Windows updates and administer updates 
+Windows Registry
+Command prompt 
+Schedule tasks in Windows using Task Scheduler
+
+Installing Windows 11 on a VM Part 1
+------------------------------------
+See installation process for Windows 
+Windows 11 Enterprise
+After 90 days will lose some features
+6 gb download
