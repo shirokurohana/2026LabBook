@@ -130,3 +130,20 @@ See installation process for Windows
 Windows 11 Enterprise
 After 90 days will lose some features
 6 gb download
+
+Installing Windows 11 on a VM Part 2
+------------------------------------
+
+Launch VirtualBox
+New -> Choose ISO -> 
+Skip unattended installation
+
+Next
+Choose 8GB of RAM and 4 cores
+Finish
+
+Use Defaults to install Windows 11
+
+It reboots during installation process
+
+
