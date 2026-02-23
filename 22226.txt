@@ -1,0 +1,52 @@
+TCM Security Practical Helpdesk Course
+
+Advantages of Virtualization
+----------------------------
+
+Main advantages of virtulization 
+1) Less time troubleshooting hardware related issues
+2) Frees up budget to allocate it toward other important procurements
+3) Gives IT support more ability to see things remotely 
+4) Ability to use more than one OS on 1 computer than purchasing another one
+5) Fast ability to spin up VMs
+6) Ability to run servers in a more cost-effective manner on a continuous basis
+7) Ability to run custom software virtually without having to install it manually on hardware
+
+1st advantage:
+Ease and speed
+Spin up new resources
+And tear them down
+
+Agility 
+Stand up a virtual machine in a matter of minutes to test whether you like the OS or not
+
+Commercial example
+ITT team - software dev team
+New piece of software test it to make sure it works on different OSs
+
+2nd advantage: 
+Cost savings
+
+Corporate environment - Evil Corp
+ITT Team is responsibile for managing 3 servers
+1st server is the email server - Microsoft Exchange running on Windows Server -> 50% utilization
+2nd server is the web server - Linux OS - 25% utilization
+3rd server is the database server - UNIX - 10% utilization
+
+123 can run on a hypervisor -> maintain one piece of software now
+
+It's easy to spin them up or spin them down
+
+3rd advantage:
+Easy of backups good for disaster and recovery
+
+We can create snapshots to revert back to various states in a VM
+
+Mission critical server is virtualized
+Create a snapshot of a known working point before the update
+Beneficial for hardware failure
+
+Move virtualization off premises just putting it in the cloud - so no need to maintain or replace
+
+Failover happen behind the scenes from the cloud providers
+
