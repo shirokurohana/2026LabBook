@@ -49,3 +49,9 @@ right click and delete as well
 windows + d -> back to desktop
 windows + right key -> make it to the right tile
 windows + up key full screen -> make it full screen
+
+bottom right of taskbar
+adjust time and date or notifications
+details about the network
+change sounds settings
+start menu -> settings -> options to configure the computer
