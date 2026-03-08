@@ -55,3 +55,30 @@ adjust time and date or notifications
 details about the network
 change sounds settings
 start menu -> settings -> options to configure the computer
+
+Local and domain accounts
+-------------------------
+
+Differences 
+Local user accounts
+
+Local logon - username and pass
+Check it against the users and pass stored on there
+Stored on the hard drive
+
+Computer A 
+Computer B -> login that would work if it had the same username and password, settings would be different
+change on Com A would not be reflected on Com B
+
+Local acc specific to that computer 
+
+Domain accounts -> orgs, schools
+cloud computer or one on network that will store a list of all users and pass
+domain controller -> DC 
+Com A will ask DC to see if username exists 
+Com B can also ask DC to see if user exists
+Directory service -> phonebook of all users and details/permissions
+Microsoft has Active Directory 
+Permissions and details will not be stored on a local computer - domain accounts
+remote admin is possible
+Microsoft acc -> single sign in acc -> not like domain accounts
