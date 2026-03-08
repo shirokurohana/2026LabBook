@@ -1,0 +1,51 @@
+TCM Security - Practical helpdesk
+
+Creating and restoring VM snapshots
+-----------------------------------
+1. Click Machine
+2. Take snapshot
+3. Give snapshot a name - fresh Windows Install
+
+Right click on desktop -> new folder -> delete me 
+How to revert back -> initial snapshot -> current state changed 
+
+Right click on VM -> stop -> power off 
+We can click restore -> uncheck the current state snapshot
+
+Windows Basics
+--------------
+Enter button or drag up with the mouse
+Picture is the desktop
+Link to open up browser and recycle bin
+
+Left click to select things
+Double left click to open the item
+Right click for a menu with more options
+Windows button is to see start menu and access our apps and things like system settings
+Powerful search button - apps or systems settings
+
+Taskbar - configure
+snipping tool
+escape key to get out of start menu
+
+task bar 
+tiling add multiple desktops 
+pinned applications - shortcuts to allow us to open apps
+blue bar underneath showing that it's pinned but also that it's open
+if you close it out the blue bar is removed
+dash symbol will minimize it into the task bar
+blue dot show it's minimized 
+drag and resize it
+hover over to see options for tiling
+
+file explorer - organize and view, and get access to files on computer
+navigation pane to navigate file structure
+we have shortcuts
+this pc, disks that are installed 
+click on local disk C:
+drag and drop folders into others
+cut and paste 
+right click and delete as well
+windows + d -> back to desktop
+windows + right key -> make it to the right tile
+windows + up key full screen -> make it full screen
