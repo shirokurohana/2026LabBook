@@ -1,0 +1,57 @@
+TCM security - 3/12/2026
+Administering Local User Accounts
+- add new users
+- change passwords
+- make them admins
+- remove admin privileges
+- delete accounts
+
+Admin/Edit user accounts
+
+Start menu
+Left hand side - Accounts - make some changes and add other accounts
+this is more for consumers
+
+Start menu -> control panel -> user accounts -> make changes or manage another user account
+
+run -> lusrmgr.msc -> local users and groups management service
+powerful tool 
+look at users - double click on local users
+4 accounts not setup 
+Default accounts windows setup
+Some are used for functionality
+
+Admin gets disabled after Windwows installation
+Windows uses the admin to install windows
+
+Difference between local admin and a standard local acc
+
+admin has full control - all files and make changes 
+standard can't do that
+
+
+admin account required for instaling / uninstall software, drivers, changes to computer / os settings, edit and admin other users
+
+Member Of tab
+admin privileges
+
+Groups
+-----
+Admin tool allow us to have settings or permissions for a broad seelction of accounts
+Permissions to those groups
+Admin group -> can see members
+
+Some admin tasks for users
+How to add a local user
+right click -> new user
+change pass at next login
+
+Look at new user account -> double click -> add desc -> disable acc -> perform admin on pass
+member of -> add -> check name for group -> it should populate -> ok
+remove from users -> apply -> ok
+now make it as a default account -> users
+remove admin group 
+right click on user -> set password
+right click -> delete
+right click -> rename
+
