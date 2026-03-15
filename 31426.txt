@@ -1,0 +1,17 @@
+TCM Security - Practical helpdesk
+
+Ticket Interrupt
+----------------
+
+Ticket #4561292: Add user to Windows computer
+Assigned: Admin Created: 7/8/2024 Status: Open
+
+Comment: Hello admin, could you please add a local user "Richard" to windows computer. Please create the account so that the user will have to change their password the first time they login. In addition, please make the user a local administrator.
+
+run -> lusrmgr.msc -> users -> right click -> new user
+
+restart computer to make sure properly added and make sure they are admin
+
+cmd -> run as admin
+
+Completed
