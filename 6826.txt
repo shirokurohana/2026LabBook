@@ -1,0 +1,30 @@
+6/8/26:
+Windows File Server & Permissions Home Lab
+
+- I have a Windows server working as a domain controller with active directory domain services installed 
+- I have a windows client that is domain-joined
+
+Objectives
+- Configure a windows file server
+- manage nfts and share permissions
+- control access to files through active directory integration
+
+File server
+- computer or server that stores files in one central place and allows computer to access files over the network
+- it also controls who can access which files
+- multiple users can access it at the same time
+- keeps files available even if someone's computer is turned off 
+
+How it work in AD
+- Domain controller - stores user acc, groups and permissions and authenticates users when they login
+- File server is a domain joined server which hosts shared folders and uses AD for access control
+- Domain users - who login with domain credentials access file based on permissions
+
+How it works in real time
+1. User logins with domain credentials
+2. Domain controller authenticates user
+3. User accesses the file share such as at \\fileserver01\HR
+4. File server checks permissions and sees who the user is from AD
+5. Checks share permissions and NFTS permissions on the file share
+If permissions match then access is allowed 
+Other wise access will be blocked
