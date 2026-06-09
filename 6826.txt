@@ -28,3 +28,81 @@ How it works in real time
 5. Checks share permissions and NFTS permissions on the file share
 If permissions match then access is allowed 
 Other wise access will be blocked
+
+Step 1: Create a shared data folder
+Go to your server, click explore -> click on This PC -> Double click on the C drive and create a new folder called Company Data -> Inside create 4 different folders (HR, IT, Finance, and Public)
+
+Step 2: Create Security Groups in AD
+Why do we create groups? To set permissions
+Open Active Directory Users and Computers -> Right-click on your User OU and then do new -> Group -> Name group like the folders
+
+Step 3: Create Test Users
+Right-click User OU -> New -> User - Fn, Ln -> logon name -> next -> type a password -> uncheck user must change at next logon -> check password never expires
+
+Right-click user, properties, member of tab, click add, type group name, check name, apply and ok
+
+OR 
+
+Right-click on group, members tab, add, type in user name, check name, ok, apply, and ok
+
+Step 4: Configuring NTFS permissions
+NFTS vs shared permissions
+Windows file permissions
+NTFS and share 
+tell you who can access files and what they can do
+work together but apply in diff situations
+
+New Technology File system - locally or over the network
+Permission levels
+1. Full 
+2. Modify
+3. Read and execute
+4. List folder contents
+5. Read Open and view files
+6. Create or modify files
+
+Share permissions
+control access when folder is shared over the network
+only through a network share
+\\FileServer\SharedFolder
+1. Full
+2. Change - read, write, modify
+3. Read - view file and subfolders, run programs
+
+Share permissions determine initial access
+
+How work together 
+User tries to access folder on a windows server 
+Two permission are involved
+Connect to shared folder over the path
+
+Share permissions what to do over the network
+Next layer is NFTS is applied
+Control access to the actual files and folders stored on the disk
+Permissions are mroe detailed 
+
+Both permissions system calculates the effective permission and the most restrictive permission wins
+
+Right click on HR folder -> properties -> let's put the modify permissions - remove everyone from the HR folder so only HR users can access -> security tab -> edit -> add -> HR -> check name -> modify -> apply
+
+Everyone has access due to inherited permissions
+To ensure only HR team can open -> right click -> properties -> security tab -> advanced -> disable inheritance -> convert inherited permissions into explicit permissions on this object -> copies existing permissions so we can safely modify them later on -> if you don't convert it will remove everything including your own access and the admin access -> select unauth groups that we don't want, click user, remove, best practice is to keep system and admin,
+apply, ok
+
+IT Folder 
+IT users -> Modify
+
+Finance Folder
+Finance users -> Modify
+
+Public folder
+- Domain users - read
+- IT users - modify
+Remove users access from all three folders
+
+Step 5: Configuring share permissions
+- Main folder Company data - right click -> sharing -> advanced sharing -> share disk -> share permissions -> full control -> apply ok
+
+Why is it ok to do full control on all users? Because it will go with most restrictive permissions
+
+Test using a windows client with the different users
